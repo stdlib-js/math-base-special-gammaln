@@ -97,6 +97,24 @@ for ( i = 0; i < x.length; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/gamma`][@stdlib/math/base/special/gamma]: gamma function.
+-   [`@stdlib/math/base/special/gammainc`][@stdlib/math/base/special/gammainc]: incomplete gamma function.
+-   [`@stdlib/math/base/special/gammaincinv`][@stdlib/math/base/special/gammaincinv]: inverse incomplete gamma function.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -152,9 +170,17 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-gammaln/main/LICENSE
 
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
+
+[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv
+
+<!-- </related-links> -->
 
 </section>
 
