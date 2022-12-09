@@ -52,7 +52,7 @@
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-ninf": "^0.0.x",
     "@stdlib/fs-write-file": "^0.0.x",
-    "@stdlib/math-base-special-max": "^0.0.x",
+    "@stdlib/math-base-special-maxn": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
