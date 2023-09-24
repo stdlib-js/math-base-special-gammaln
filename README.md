@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@deno/mod.js';
+import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@v0.1.0-deno/mod.js';
 ```
 
 #### gammaln( x )
@@ -84,7 +84,7 @@ v = gammaln( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@deno/mod.js';
+import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@v0.1.0-deno/mod.js';
 
 var x = linspace( -10.0, 10.0, 100 );
 
