@@ -33,10 +33,10 @@ var gammaln = require( './../../dist' );
 
 // FIXTURES //
 
-var data1 = require( './../..xtures/r/data1.json' );
-var expected1 = require( './../..xtures/r/expected1.json' );
-var data2 = require( './../..xtures/r/data2.json' );
-var expected2 = require( './../..xtures/r/expected2.json' );
+var data1 = require( './../fixtures/r/data1.json' );
+var expected1 = require( './../fixtures/r/expected1.json' );
+var data2 = require( './../fixtures/r/data2.json' );
+var expected2 = require( './../fixtures/r/expected2.json' );
 
 
 // TESTS //
