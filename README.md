@@ -35,38 +35,32 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of the [gamma][@stdlib/math/base/special/gamma] function.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-gammaln
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-gammaln = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var gammaln = require( 'path/to/vendor/umd/math-base-special-gammaln/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.gammaln;
-})();
-</script>
+var gammaln = require( '@stdlib/math-base-special-gammaln' );
 ```
 
 #### gammaln( x )
@@ -106,14 +100,9 @@ v = gammaln( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var gammaln = require( '@stdlib/math-base-special-gammaln' );
 
 var x = linspace( -10.0, 10.0, 100 );
 
@@ -121,11 +110,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( 'x: %d, f(x): %d', x[ i ], gammaln( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -182,8 +166,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-gammaln.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-gammaln
 
-[test-image]: https://github.com/stdlib-js/math-base-special-gammaln/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base-special-gammaln/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base-special-gammaln/actions/workflows/test.yml/badge.svg?branch=v0.2.2
+[test-url]: https://github.com/stdlib-js/math-base-special-gammaln/actions/workflows/test.yml?query=branch:v0.2.2
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-gammaln/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-gammaln?branch=main
@@ -213,15 +197,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/math-base-special-gammaln/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-gammaln/blob/main/branches.md
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/umd
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc/tree/umd
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
 
-[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv/tree/umd
+[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv
 
 <!-- </related-links> -->
 
