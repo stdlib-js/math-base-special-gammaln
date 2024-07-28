@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-gammaln/tags). For example,
+
+```javascript
 import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@v0.2.2-deno/mod.js';
 ```
 
@@ -84,7 +89,7 @@ v = gammaln( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@v0.2.2-deno/mod.js';
+import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@deno/mod.js';
 
 var x = linspace( -10.0, 10.0, 100 );
 
