@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-02)
+## Unreleased (2024-08-03)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b633157`](https://github.com/stdlib-js/stdlib/commit/b6331572f8cc0dcd92ac1dbeb0aeaabc4d858615) - **docs:** remove comments, set `isNegative` to `uint8_t` in `math/base/special/gammaln` [(#2732)](https://github.com/stdlib-js/stdlib/pull/2732) _(by Gunj Joshi)_
 -   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - **feat:** add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636) _(by Gunj Joshi)_
 
 </details>
