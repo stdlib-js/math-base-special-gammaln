@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-24)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`cdaf16f`](https://github.com/stdlib-js/stdlib/commit/cdaf16f9f3c05f153fcffbb00dab12412196cce6) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`8a97c7d`](https://github.com/stdlib-js/stdlib/commit/8a97c7dbcb07a873fe7395156cfa1fa40beb1dad) - **chore:** update package meta data [(#2738)](https://github.com/stdlib-js/stdlib/pull/2738) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`b633157`](https://github.com/stdlib-js/stdlib/commit/b6331572f8cc0dcd92ac1dbeb0aeaabc4d858615) - **docs:** remove comments, set `isNegative` to `uint8_t` in `math/base/special/gammaln` [(#2732)](https://github.com/stdlib-js/stdlib/pull/2732) _(by Gunj Joshi)_
 -   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - **feat:** add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636) _(by Gunj Joshi)_
