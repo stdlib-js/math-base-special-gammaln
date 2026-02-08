@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@esm/index.mjs';
+import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@v0.3.1-esm/index.mjs';
 ```
 
 #### gammaln( x )
@@ -90,7 +90,7 @@ v = gammaln( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@esm/index.mjs';
+import gammaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaln@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
