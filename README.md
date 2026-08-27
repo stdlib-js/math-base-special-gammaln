@@ -35,6 +35,22 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of the [gamma][@stdlib/math/base/special/gamma] function.
 
+<section class="intro">
+
+The natural logarithm of the [gamma function][gamma-function] is defined as
+
+<!-- <equation class="equation" label="eq:gammaln_function" align="center" raw="y = \ln \Gamma(x)" alt="Natural logarithm of the gamma function"> -->
+
+```math
+y = \ln \Gamma(x)
+```
+
+<!-- </equation> -->
+
+</section>
+
+<!-- /.intro -->
+
 <section class="installation">
 
 ## Installation
@@ -286,6 +302,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-base-special-gammaln/tree/esm
 [esm-readme]: https://github.com/stdlib-js/math-base-special-gammaln/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-gammaln/blob/main/branches.md
+
+[gamma-function]: https://en.wikipedia.org/wiki/Gamma_function
 
 [@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
